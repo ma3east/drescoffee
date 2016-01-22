@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+
+<body class='landing-page wsite-background  wsite-theme-light'>
+    <div id="nav-wrap">
+        <div class="container">
+			<table id="header">
+                <tr>
+                    <td id="logo">{logo}</td>
+					<td id="nav"> {menu} </td>
+					<!--<td class="search">{search}</td>-->
+				</tr>
+			</table>
+        </div><!-- end container -->
+    </div><!-- end nav-wrap -->
+
+    <div id="banner-wrap">
+        <div class="container">
+            <div id="banner">
+                
+                <div id="bannerright">
+                	<h2>{headline:text global="false"}</h2>
+                	<p>{headline-paragraph:text global="false"}</p>
+                	<div class='button-wrap'>{action:button global="false"}</div>
+                </div><!-- end banner-right -->
+                
+                <div style="clear:both;"></div>
+            </div><!-- end banner -->
+        </div><!-- end container -->
+    </div><!-- end banner-wrap -->
+
+    <div id="main-wrap">
+        <div class="container">
+			<!--<div id="bannerleft">
+				<div class="wsite-header"></div>
+            </div> --><!-- end banner-left -->
+   			{content}
+        </div><!-- end container -->
+    </div><!-- end main-wrap -->
+
+    <div id="footer-wrap">
+        <div class="container">
+		
+       		{footer}
+        </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+<script type="text/javascript" src="/files/theme/custom.js"></script>
+</body>
+
+</html>
